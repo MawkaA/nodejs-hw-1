@@ -57,5 +57,5 @@ const removeContact = async (contactId) => {
     removeContact,
     addContact,
   };
-  console.log(contacts);
+
   

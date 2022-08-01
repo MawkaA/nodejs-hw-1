@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server",
-    "start:dev": "npx nodemon server"
+    "start": "node index",
+    "start:dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,11 @@
     "url": "https://github.com/MawkaA/nodejs-hw-1/issues"
   },
   "homepage": "https://github.com/MawkaA/nodejs-hw-1#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.19"
-  },
   "dependencies": {
     "bson-objectid": "^2.0.3",
     "commander": "^9.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
